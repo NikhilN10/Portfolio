@@ -15,15 +15,25 @@ const Info = {
   bio: "I'm a Passionate software engineer with strong background in programming and web development.I specialized in crafting efficent and scalable solutions, deliver top-notch web applications that exceeds clients expectations.Let's connect and create amazing together!",
 };
 const ProjectInfo = [
+  // {
+  //   title: "Ekart E-comm App",
+  //   desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
+  //   image: "Ekart.png",
+  //   live: true,
+  //   technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
+  //   link: "https://code-mars.github.io/Ekart/",
+  //   github: "https://github.com/Code-Mars/Ekart/",
+  // },
   {
-    title: "Ekart E-comm App",
-    desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
-    image: "Ekart.png",
-    live: true,
-    technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
-    link: "https://code-mars.github.io/Ekart/",
-    github: "https://github.com/Code-Mars/Ekart/",
-  },
+  title: "Expense Splitter API",
+  desc: "Expense Splitter is a scalable, RESTful API built with Spring Boot that helps users easily split group expenses. It supports group and user management, expense tracking, balance calculation, and smart debt resolution. The backend features secure role-based access, JWT authentication, and efficient relational data modeling with JPA. Advanced features include pagination, filtering, meaningful error handling, and Swagger API documentation. Designed with real-world use in mind, this project follows clean code, modular structure, and is future-ready for frontend integration or microservices architecture.",
+  image: "expense-splitter-api.png", // placeholder name; update as needed
+  live: false,
+  technologies: ["Java", "Spring Boot", "JPA", "MySQL", "JWT", "Swagger", "Postman"],
+  link: "", // Leave empty if not deployed
+  github: "https://github.com/NikhilN10/Expense_Spitter_API/tree/master", // replace with actual repo
+},
+
   // {
   //   title: "Facebook Clone",
   //   desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
