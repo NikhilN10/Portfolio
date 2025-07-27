@@ -1,15 +1,13 @@
-import { Timeline, Text, useMatches} from '@mantine/core'
-import { IconBriefcaseFilled, IconGitBranch, IconGitCommit, IconGitPullRequest, IconMessageDots } from '@tabler/icons-react'
-import React from 'react'
-import { isTemplateSpan } from 'typescript'
+import { Timeline, useMatches} from '@mantine/core'
+import { IconBriefcaseFilled } from '@tabler/icons-react'
 import { ExperienceInfo } from '../Info'
-import Skills from './Skills';
+
 
 const TimelineItem=(items:any)=>{
-  const size=useMatches({
-    xs:15,
-    md:20,
-  })
+  // const size=useMatches({
+  //   xs:15,
+  //   md:20,
+  // })
     return items.map((item:any,index:number)=> <Timeline.Item data-aos="fade-up" data-aos-duration="800"
      key={index} className='!pt-12 !mb-2 sm-mx:!p-1' bullet={<IconBriefcaseFilled className='text-bgColor' size={20} />}>
         <div className='border flex flex-col shadow-[0_0_10px_0_#64FFDA50] gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2'>

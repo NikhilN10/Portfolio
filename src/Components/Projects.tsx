@@ -2,7 +2,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import { ProjectInfo } from '../Info'
-import { Image } from '@mantine/core';
+
 
 const Projects = () => {
   return (

@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
 import '@mantine/core/styles.css';
 import HomePage from './Components/HomePage';
 import { MantineProvider } from '@mantine/core';

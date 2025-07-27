@@ -8,9 +8,9 @@ const ProjectCard = (props:any) => {
   const badge=useMatches({
     xsm:'sm',md:'md',lg:'lg'
   })
-  const btn=useMatches({
-    xs:'xs',md:'md',sm:'sm'
-  })
+  // const btn=useMatches({
+  //   xs:'xs',md:'md',sm:'sm'
+  // })
   return (
     <div className='w-[32%] lg-mx:w-[46%] md-mx:w-[48%] sm-mx:w-[90%] xs-mx:w-full' data-aos="fade-up" data-aos-duration="800">
     <Card onClick={open} className='!bg-bgColor border-2 mb-5 transition-transform duration-300 ease-out cursor-pointer hover:!scale-[1.02] hover:!shadow-[0_0_10px_1px_#64FFDA80] !border-primaryColor' shadow="lg" padding="sm" radius="lg" withBorder>

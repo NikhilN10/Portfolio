@@ -3,7 +3,7 @@ const FloatingInput = (props: any) => {
     <div>
       {" "}
       <div className="relative">
-        {props.id != "message" ? (
+        {props.id !== "message" ? (
           <input
             type="text"
             id={props.id}
@@ -30,7 +30,7 @@ const FloatingInput = (props: any) => {
         <label
           htmlFor={props.id}
           className={`absolute  text-xl sm-mx:text-lg xs-mx:text-base  text-textColor  duration-300 transform -translate-y-4 scale-100 top-1 z-10 origin-[0] bg-bgColor  px-2 peer-focus:px-2 peer-focus:text-primaryColor  peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 ${
-            props.id != "message"
+            props.id !== "message"
               ? "peer-placeholder-shown:top-1/2"
               : "peer-placeholder-shown:top-6"
           } peer-focus:top-1 peer-focus:scale-90 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1`}

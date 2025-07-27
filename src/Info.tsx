@@ -160,7 +160,7 @@ const socialLinks = [
   },
   { link: "https://leetcode.com/u/NikhilN10/", icon: IconBrandLeetcode },
   {
-    link: "https://www.instagram.com/itz_nicky_nix/",
+     link: "https://www.instagram.com/itz_nicky_nix/",
     icon: IconBrandInstagram,
   },
 ];
